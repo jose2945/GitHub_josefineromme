@@ -1,0 +1,71 @@
+/* Basis styles */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: pink;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    justify-content: flex-sta0 rt;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    position: relative;
+    padding-right: 2em;
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    padding: 1em;
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+    padding: 0 2em;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
+
+h1 {
+    font-family: 'Gothic A1', sans-serif;
+    margin: 2vw;
+    font-size: 3vw;
+
+}
+
+p {
+    font-family: 'Gothic A1', sans-serif;
+    margin: 2vw;
+
+}
+
+li {
+    font-family: 'Gothic A1', sans-serif;
+    margin: 1vw;
+
+}
+
+img {
+    height: 20vw;
+    margin: 2vw;
+}
