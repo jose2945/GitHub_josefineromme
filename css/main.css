@@ -55,14 +55,21 @@ h1 {
 
 h2 {
     font-family: 'Gothic A1', sans-serif;
-    margin: 2vw;
+    margin: 2vw 2vw 1vw 1vw;
     font-size: 2vw;
+
+}
+
+h3 {
+    font-family: 'Gothic A1', sans-serif;
+    margin: 2vw 2vw 1vw 1vw;
+    font-size: 1.2vw;
 
 }
 
 p {
     font-family: 'Gothic A1', sans-serif;
-    margin: 2vw;
+    margin: 1vw 2vw 1vw 1vw;
 
 }
 
